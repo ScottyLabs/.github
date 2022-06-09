@@ -2,7 +2,6 @@ name: Bootcamp Task Template
 description: This template is used to create issues for Bootcamp tasks
 title: "[Bootcamp] My first bootcamp task"
 labels: bootcamp
-assignees: ''
 body:
   - type: textarea
     attributes:
