@@ -1,0 +1,28 @@
+name: Bug Report
+description: Template for reporting bugs
+title: '[Bug] Navbar component glitches on dark mode'
+labels:
+  - bug
+body:
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: If the feature were working perfectly, how should it behave?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Provide the steps you can take to reproduce the bug
+    validations:
+      required: true
+  - type: textarea
+    id: device-information
+    attributes:
+      label: Device Information
+      description: Please provide details on the device you used when you found the bug.
+      placeholder: Desktop/Mobile, OS, Browser Version
+    validations:
+      required: true

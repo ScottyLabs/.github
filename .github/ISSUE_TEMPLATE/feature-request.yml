@@ -1,0 +1,20 @@
+name: Feature Request
+description: Issue template for feature requests
+title: '[Feature] Add professor info to Course website'
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: >-
+        Add a brief description of feature you're requesting. If you can provide
+        screenshots for context, that would be great!
+    validations:
+      required: true
+  - type: textarea
+    id: designs
+    attributes:
+      label: Designs
+      description: Any links to Figma or design documents for reference.
