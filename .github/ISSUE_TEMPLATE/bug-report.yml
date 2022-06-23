@@ -23,6 +23,9 @@ body:
     attributes:
       label: Device Information
       description: Please provide details on the device you used when you found the bug.
-      placeholder: Desktop/Mobile, OS, Browser Version
+      placeholder: |
+        Desktop/Mobile: Desktop
+        OS: macOS Monterey 12.3.1
+        Browser Version: Safari 15.4
     validations:
       required: true
